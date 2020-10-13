@@ -1,0 +1,35 @@
+#board {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 100px auto;
+    position: relative;
+}
+
+#main {
+    text-align: center;
+}
+
+.block {
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.snake {
+    background: red;
+    border: 2px solid red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.food {
+    background: green;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
